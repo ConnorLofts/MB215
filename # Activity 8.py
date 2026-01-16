@@ -1,5 +1,5 @@
 # Activity 8
-
+# Get inputs for hours worked and hourly rate
 hour_work = float(input("Enter number of hours worked: "))
 hourly_rate = float(input("Enter hourly rate: "))
 # Calculate gross pay
