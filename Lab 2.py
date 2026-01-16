@@ -24,7 +24,18 @@ print(f"The area of the rectangle is {area}")
 
 # Activity 3
 
-my_string = 'Go' + ' ' + 'Buffalo' + ' ' + 'Bills!'
 
-print(f"{my_string}")
+string1 = input("Enter the first string: ")
+
+string2 = input("Enter the second string: ")
+
+string3 = input("Enter the third string: ")
+
+# Concatenate them into a full sentence with spaces
+full_sentence = string1 + " " + string2 + " " + string3 + "."
+
+print(f"{full_sentence}")
+
+# Activity 4
+
 
