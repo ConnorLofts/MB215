@@ -8,10 +8,10 @@ print("\n")
 
 # Nested for loop to create a multiplication table for numbers 1 to 3
 print("Multiplication table for numbers 1 to 3:")
-for i in range(1, 4):  # Outer loop: 1 to 3
-    for j in range(1, 11):  # Inner loop: 1 to 10
+for i in range(1, 4):  
+    for j in range(1, 11):  
         print(f"{i} * {j} = {i * j}", end='\t')
-    print()  # New line after each row
+    print()  
 print()
 
 # For loop to reverse a string. Note: Use ‘reversed’ keyword
