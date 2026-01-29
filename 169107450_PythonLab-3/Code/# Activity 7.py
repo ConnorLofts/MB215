@@ -10,7 +10,6 @@ SIZE = 100 # The size parameter for the shapes
 # Set up the Turtle screen and turtle
 screen = turtle.Screen()
 pattern_turtle = turtle.Turtle()
-
 # Loop to draw the pattern
 for i in range(ITERATIONS):
     # Draw your geometric shape here
