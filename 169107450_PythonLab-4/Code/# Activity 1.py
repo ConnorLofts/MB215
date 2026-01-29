@@ -4,7 +4,8 @@ import random
 def roll_dice(num_dice, num_sides):
     total = 0
      
-    ## Write the missing code her (use “range” to loop through num_dice)
+    for _ in range(num_dice):
+        roll = random.randint(1, num_sides)
+        total += roll
 
     return total
-
