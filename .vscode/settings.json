@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "169107450_PythonLab-4"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
