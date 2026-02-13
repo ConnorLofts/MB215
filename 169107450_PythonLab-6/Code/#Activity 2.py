@@ -15,8 +15,7 @@ class Car:
         # Your code here to print car details
         print(f"Car Details: {self.year} {self.make} {self.model}")
         pass
-
     def __update_model(self, new_model):
-        # Your code here to update the model
-        self.model = new_model
-        pass
+        self.__model = new_model
+
+    
