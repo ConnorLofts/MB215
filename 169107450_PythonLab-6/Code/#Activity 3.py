@@ -4,7 +4,7 @@
 class Car:
     # Modify the __init__ method to make model private
     # Your updated code here
-# car.py (updated)
+
     def __init__(self, make, model, year):
         self.make = make
         self._model = model 
