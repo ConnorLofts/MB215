@@ -1,14 +1,17 @@
-#Activity 3.
+#Activity 3: Hiding Data Attributes
+#Modify the Car class to make the model attribute private. This should #prevent it from being accessed directly from an instance.
 
-my_list = [10, 20, 30, 40, 50]
-element_to_find = 30
+class Car:
+    # Modify the __init__ method to make model private
+    # Your updated code here
+# car.py (updated)
+    def __init__(self, make, model, year):
+        self.make = make
+        self._model = model 
+        self.year = year
 
-if element_to_find in my_list:
-    index = my_list.index(element_to_find)
-    print(f"The element {element_to_find} is at index {index}.")
-else:
-    print(f"The element {element_to_find} is not in the list.")
-print (f"The value at index 0 is {my_list[0]}.") 
-print(f"The length of the list is {len(my_list)}.")
-newElement_value= my_list[0]=999
-print("The new list fatre the change is:", my_list)
+    def display_info(self):
+        print(f"Car Details: {self.year} {self.make} {self.model}")
+
+    def __update_model(self, new_model):
+        self._model = new_model
