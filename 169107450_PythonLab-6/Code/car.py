@@ -1,9 +1,18 @@
-##Activity 1: Define a Car Class
-##Create a file named car.py and define a Car class with the following ##specifications:
 class Car:
     def __init__(self, make, model, year):
-        # Your code here to initialize attributes
         self.make = make
-        self.model = model
+        self.__model = model    
         self.year = year
-        pass
+
+    def display_info(self):
+        print(f"Car Details: {self.year} {self.make} {self.__model}")
+
+    def __update_model(self, new_model):
+        self.__model = new_model
+
+    def update_model(self, new_model):
+        self.__update_model(new_model)
+        print(f"Model updated to: {new_model}")
+
+    def __str__(self):
+        return f"{self.year} {self.make} {self.__model}"
