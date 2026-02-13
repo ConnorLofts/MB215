@@ -3,15 +3,19 @@
 
 class Car:
     # Modify the __init__ method to make model private
-    # Your updated code here
-
-    def __init__(self, make, model, year):
+     def __init__(self, make, model, year):
         self.make = make
-        self._model = model 
+        self.__model = model    
         self.year = year
 
-    def display_info(self):
-        print(f"Car Details: {self.year} {self.make} {self.model}")
+def display_info(self):
+        print(f"Car Details: {self.year} {self.make} {self.__model}")
 
-    def __update_model(self, new_model):
-        self._model = new_model
+def __update_model(self, new_model):
+        self.__model = new_model   
+    # Your updated code here
+def update_model(self, new_model):
+        self.__update_model(new_model)
+        print(f"Model updated to: {new_model}")
+   
+   
