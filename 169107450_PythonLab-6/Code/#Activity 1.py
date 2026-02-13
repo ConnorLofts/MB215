@@ -1,7 +1,11 @@
-#Activity 1.
-
-my_list = [1, "two", 3.0, True]
-print("The entire list:", my_list)
-my_tuple = (4, "five", 6.0, False)
-tuple_to_list = list(my_tuple)
-print("Converted list from tuple:", tuple_to_list)
+##Activity 1: Define a Car Class
+##Create a file named car.py and define a Car class with the following ##specifications:
+# car.py
+class Car:
+    def __init__(self, make, model, year):
+        # Your code here to initialize attributes
+        self.make = make
+        self.model = model
+        self.year = year
+        pass
+   
