@@ -12,12 +12,12 @@ car1.display_info()
 print("Car 2:")
 car2.display_info()
 
-#Updating model 
+# Updating model 
 
 print("Updating Car 1 Model")
 car1.update_model("Model Y")
 
-print("After update - Car 1:")
+print("After update Car 1:")
 car1.display_info()
 
 # Using __str__ method
